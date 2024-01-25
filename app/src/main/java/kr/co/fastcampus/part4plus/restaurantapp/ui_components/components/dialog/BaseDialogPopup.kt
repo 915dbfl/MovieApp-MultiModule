@@ -1,4 +1,4 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.components.dialog
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.dialog
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -10,16 +10,16 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
-import kr.co.fastcampus.part4plus.restaurantapp.ui.components.dialog.components.button.DialogButtonsColumn
-import kr.co.fastcampus.part4plus.restaurantapp.ui.components.dialog.components.content.DialogContentWrapper
-import kr.co.fastcampus.part4plus.restaurantapp.ui.components.dialog.components.title.DialogTitleWrapper
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.dialog.DialogButton
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.dialog.DialogContent
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.dialog.DialogText
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.dialog.DialogTitle
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.Paddings
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.RestaurantAppTheme
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.colorScheme
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.dialog.components.button.DialogButtonsColumn
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.dialog.components.content.DialogContentWrapper
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.dialog.components.title.DialogTitleWrapper
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.dialog.DialogButton
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.dialog.DialogContent
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.dialog.DialogText
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.dialog.DialogTitle
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.Paddings
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.RestaurantAppTheme
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.colorScheme
 
 @Composable
 fun BaseDialogPopup(

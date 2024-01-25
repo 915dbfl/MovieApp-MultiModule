@@ -1,8 +1,8 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.config
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.config
 
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.Shapes
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.Typography
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.color.ColorSet
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.Shapes
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.Typography
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.color.ColorSet
 
 
 object DefaultComponentConfig {

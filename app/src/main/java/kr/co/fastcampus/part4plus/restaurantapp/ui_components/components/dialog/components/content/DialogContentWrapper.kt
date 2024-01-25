@@ -1,4 +1,4 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.components.dialog.components.content
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.dialog.components.content
 
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.padding
@@ -14,9 +14,9 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.em
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.dialog.DialogContent
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.dialog.DialogText
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.Paddings
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.dialog.DialogContent
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.dialog.DialogText
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.Paddings
 
 data class DialogContentStyle(
     val textStyle: @Composable () -> TextStyle = { MaterialTheme.typography.body1 },

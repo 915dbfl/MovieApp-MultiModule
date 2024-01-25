@@ -1,4 +1,4 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.theme.color
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.color
 
 import androidx.compose.material.Colors
 import androidx.compose.ui.graphics.Color

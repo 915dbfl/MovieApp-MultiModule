@@ -1,4 +1,4 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.components.restaurant
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.restaurant
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -17,9 +17,9 @@ import coil.compose.rememberAsyncImagePainter
 import coil.request.ImageRequest
 import coil.size.Scale
 import kr.co.fastcampus.part4plus.restaurantapp.R
-import kr.co.fastcampus.part4plus.restaurantapp.features.common.entity.RestaurantFeedItemEntity
+import kr.co.fastcampus.part4plus.restaurantapp.core.entity.RestaurantFeedItemEntity
 import kr.co.fastcampus.part4plus.restaurantapp.features.feed.presentation.input.IFeedViewModelInput
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.Paddings
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.Paddings
 
 private val CARD_WIDTH = 200.dp
 private val ICON_SIZE = 12.dp

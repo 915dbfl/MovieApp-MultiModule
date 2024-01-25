@@ -1,4 +1,4 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.components.restaurant
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.restaurant
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -7,8 +7,8 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.Paddings
-import kr.co.fastcampus.part4plus.restaurantapp.ui.util.getAnnotatedText
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.Paddings
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.util.getAnnotatedText
 
 @Composable
 fun RestaurantMeta(

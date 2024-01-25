@@ -1,4 +1,4 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.util
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.util
 
 import android.graphics.Typeface
 import android.text.style.ForegroundColorSpan

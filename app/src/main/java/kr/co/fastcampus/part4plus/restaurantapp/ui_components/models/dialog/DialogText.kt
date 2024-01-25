@@ -1,4 +1,4 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.models.dialog
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.dialog
 
 sealed class DialogText {
     abstract var text: String?

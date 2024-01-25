@@ -1,11 +1,11 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.components.dialog
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.dialog
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import kr.co.fastcampus.part4plus.restaurantapp.R
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.buttons.LeadingIconData
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.dialog.DialogButton
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.RestaurantAppTheme
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.buttons.LeadingIconData
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.dialog.DialogButton
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.RestaurantAppTheme
 
 @Preview
 @Composable

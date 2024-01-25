@@ -1,4 +1,4 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.navigation
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.navigation
 
 import androidx.navigation.NavController
 import androidx.navigation.NavDirections

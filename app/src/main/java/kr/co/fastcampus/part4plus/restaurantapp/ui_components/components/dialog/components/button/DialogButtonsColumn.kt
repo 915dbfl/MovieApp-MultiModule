@@ -1,4 +1,4 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.components.dialog.components.button
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.dialog.components.button
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -7,12 +7,12 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import kr.co.fastcampus.part4plus.restaurantapp.ui.components.buttons.PrimaryButton
-import kr.co.fastcampus.part4plus.restaurantapp.ui.components.buttons.SecondaryBorderlessButton
-import kr.co.fastcampus.part4plus.restaurantapp.ui.components.buttons.SecondaryButton
-import kr.co.fastcampus.part4plus.restaurantapp.ui.components.buttons.UnderlinedTextButton
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.dialog.DialogButton
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.Paddings
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.buttons.PrimaryButton
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.buttons.SecondaryBorderlessButton
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.buttons.SecondaryButton
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.buttons.UnderlinedTextButton
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.dialog.DialogButton
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.Paddings
 
 @Composable
 fun DialogButtonsColumn(

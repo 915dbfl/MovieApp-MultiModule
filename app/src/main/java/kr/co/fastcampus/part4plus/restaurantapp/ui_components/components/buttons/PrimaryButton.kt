@@ -1,4 +1,4 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.components.buttons
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.buttons
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Arrangement
@@ -20,10 +20,10 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.buttons.LeadingIconData
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.Paddings
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.RestaurantAppTheme
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.colorScheme
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.buttons.LeadingIconData
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.Paddings
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.RestaurantAppTheme
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.colorScheme
 
 
 val LEADING_ICON_SIZE = 24.dp

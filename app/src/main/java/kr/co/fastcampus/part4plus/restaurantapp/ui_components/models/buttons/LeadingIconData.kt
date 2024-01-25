@@ -1,4 +1,4 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.models.buttons
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.buttons
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

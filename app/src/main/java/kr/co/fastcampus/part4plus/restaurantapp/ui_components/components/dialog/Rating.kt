@@ -1,10 +1,10 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.components.dialog
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.dialog
 
 import androidx.compose.runtime.Composable
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.dialog.DialogButton
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.dialog.DialogContent
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.dialog.DialogText
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.dialog.DialogTitle
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.dialog.DialogButton
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.dialog.DialogContent
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.dialog.DialogText
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.dialog.DialogTitle
 
 @Composable
 fun DialogPopup.Rating(

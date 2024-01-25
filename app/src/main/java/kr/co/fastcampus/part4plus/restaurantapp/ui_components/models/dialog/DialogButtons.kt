@@ -1,6 +1,6 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.models.dialog
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.dialog
 
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.buttons.LeadingIconData
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.buttons.LeadingIconData
 
 sealed class DialogButton(
     open val title: String,

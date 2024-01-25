@@ -1,4 +1,4 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.components.dialog.components.content
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.dialog.components.content
 
 import android.content.res.ColorStateList
 import android.widget.RatingBar
@@ -20,9 +20,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.viewinterop.AndroidView
-import kr.co.fastcampus.part4plus.restaurantapp.ui.models.dialog.DialogText
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.Paddings
-import kr.co.fastcampus.part4plus.restaurantapp.ui.util.getAnnotatedText
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.models.dialog.DialogText
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.Paddings
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.util.getAnnotatedText
 
 @Composable
 fun RatingContent(content: DialogText.Rating) {

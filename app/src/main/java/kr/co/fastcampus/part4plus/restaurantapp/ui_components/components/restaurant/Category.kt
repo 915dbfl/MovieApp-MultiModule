@@ -1,4 +1,4 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.components.restaurant
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.components.restaurant
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -9,9 +9,9 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import kr.co.fastcampus.part4plus.restaurantapp.features.common.entity.CategoryEntity
+import kr.co.fastcampus.part4plus.restaurantapp.core.entity.CategoryEntity
 import kr.co.fastcampus.part4plus.restaurantapp.features.feed.presentation.input.IFeedViewModelInput
-import kr.co.fastcampus.part4plus.restaurantapp.ui.theme.Paddings
+import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.Paddings
 
 @Composable
 fun CategoryRow(

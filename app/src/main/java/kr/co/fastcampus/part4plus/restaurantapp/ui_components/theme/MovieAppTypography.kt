@@ -1,4 +1,4 @@
-package kr.co.fastcampus.part4plus.restaurantapp.ui.theme
+package kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.runtime.Composable
