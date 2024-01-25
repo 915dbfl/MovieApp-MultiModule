@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/feed_fragment"
-        android:name="kr.co.fastcampus.part4plus.restaurantapp.features.feed.FeedFragment"
+        android:name="kr.co.fastcampus.part4plus.restaurant.features.feed.FeedFragment"
         android:label="Feed">
         <action
             android:id="@+id/action_feed_to_detail"
@@ -59,7 +59,7 @@
 
     <dialog
         android:id="@+id/info_fragment"
-        android:name="kr.co.fastcampus.part4plus.restaurantapp.features.feed.dialog.InfoDialogFragment"
+        android:name="kr.co.fastcampus.part4plus.restaurant.features.feed.dialog.InfoDialogFragment"
         android:label="Notice">
     </dialog>
 </navigation>
