@@ -26,7 +26,6 @@ import kr.co.fastcampus.part4plus.restaurantapp.ui_components.theme.RestaurantAp
 class DetailFragment: BaseFragment() {
 
     private val viewModel: RestaurantDetailViewModel by viewModels()
-    private val args: DetailFragmentArgs by navArgs()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -50,8 +49,9 @@ class DetailFragment: BaseFragment() {
     }
 
     private fun init() {
+        val id = arguments?.getInt("id") ?: 0
         lifecycleScope.launch {
-            viewModel.initDetail(args.id)
+            viewModel.initDetail(id)
         }
     }
 
@@ -61,21 +61,18 @@ class DetailFragment: BaseFragment() {
                 viewModel.outputs.detailUiEffect.collectLatest {
                     when (it) {
                         is DetailUiEffect.Back -> {
-                            findNavController().navigateUp()
+                            findNavController().safeNavigate(
+                                "App://Feed"
+                            )
                         }
                         is DetailUiEffect.OpenUrl -> {
                             findNavController().safeNavigate(
-                                DetailFragmentDirections.actionDetailToMapDialog(
-                                    it.url
-                                )
+                                "App://Map/${it.url}"
                             )
                         }
                         is DetailUiEffect.RateRestaurant -> {
                             findNavController().safeNavigate(
-                                DetailFragmentDirections.actionDetailToRating(
-                                    restaurantName = it.restaurantName,
-                                    rating = it.rating
-                                )
+                                "App://Rating/${it.restaurantName}/${it.rating}"
                             )
                         }
                     }

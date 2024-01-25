@@ -27,7 +27,8 @@ class RatingDialogFragment : BaseDialogFragment() {
             setCanceledOnTouchOutside(true)
             window?.setBackgroundDrawable(ColorDrawable(requireContext().getColor(android.R.color.transparent)))
         }
-
+        val restaurantName = arguments?.getString("restaurantName") ?: ""
+        val rating = arguments?.getFloat("rating") ?: 0.0f
         return ComposeView(requireContext()).apply {
             setViewCompositionStrategy(ViewCompositionStrategy.DisposeOnViewTreeLifecycleDestroyed)
             setContent {
@@ -35,8 +36,8 @@ class RatingDialogFragment : BaseDialogFragment() {
                     themeState = themeViewModel.themeState.collectAsState()
                 ) {
                     DialogPopup.Rating(
-                        restaurantName = args.restaurantName,
-                        rating = args.rating,
+                        restaurantName = restaurantName,
+                        rating = rating,
                         buttons = listOf(
                             DialogButton.Primary(
                                 title = getString(R.string.submit),
